@@ -2,7 +2,7 @@
 
 Questo script per Greasemonkey/Tampermonkey aggiunge un pulsante **Download massivo** alla pagina di elenco delle fatture elettroniche sul sito dell’Agenzia delle Entrate (https://serviziae.agenziaentrate.gov.it/FattureWeb/fatture/elenco) e gestisce il download sequenziale delle singole fatture. Il codice ricostruisce gli URL in modo da garantire il formato corretto, carica ogni link in un iframe nascosto, attiva il pulsante di download e attende 5 secondi dopo ogni click per consentire l’avvio del download prima di procedere al link successivo.
 
-È possibile eseguire il download massivo delle fatture elettroniche inviate in qualità di cliente, sia quelle trasmesse tramite il sistema di scambio sia quelle che il sistema stesso non è riuscito a inoltrare.  
+È possibile eseguire il download massivo delle fatture elettroniche inviate in qualità di cliente (B2C). 
 ![Screenshot](https://raw.githubusercontent.com/mlgtcode/Fatture-elettroniche-B2C-download-massivo/refs/heads/main/Screenshot%20ADE.png)
 
 **Nota:** Se il pulsante **Download massivo** non viene visualizzato, è necessario ricaricare la pagina:  
