@@ -1,6 +1,6 @@
 # Download Massivo Fatture
 
-Questo script Greasemonkey/Tampermonkey aggiunge un pulsante **Download massivo** alla pagina di elenco delle fatture elettroniche su [Agenzia delle Entrate](https://serviziae.agenziaentrate.gov.it/FattureWeb/fatture/elenco) e gestisce il download sequenziale delle fatture. Lo script ricostruisce gli URL delle fatture in modo che abbiano il formato corretto, carica ciascun link in un iframe nascosto, clicca il pulsante di download e attende 5 secondi dopo il click per permettere l’avvio del download prima di passare al link successivo.
+Questo script Greasemonkey/Tampermonkey aggiunge un pulsante **Download massivo** alla pagina di elenco delle fatture elettroniche su Agenzia delle Entrate] - https://serviziae.agenziaentrate.gov.it/FattureWeb/fatture/elenco - e gestisce il download sequenziale delle fatture. Lo script ricostruisce gli URL delle fatture in modo che abbiano il formato corretto, carica ciascun link in un iframe nascosto, clicca il pulsante di download e attende 5 secondi dopo il click per permettere l’avvio del download prima di passare al link successivo.
 
 È possibile effettuare il download massivo delle fatture elettroniche che sono state inviate in qualità di cliente, sia quelle consegnate attraverso il sistema di intercambio, sia quelle che il sistema stesso non è riuscito a consegnare.
 
